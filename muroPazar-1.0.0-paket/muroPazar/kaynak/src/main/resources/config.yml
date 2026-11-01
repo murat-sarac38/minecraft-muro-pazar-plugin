@@ -1,0 +1,40 @@
+
+currency-name: 'Pazar Parası'
+
+vault-transfers: false
+starting-balance: 0
+shop:
+  duration-hours: 24
+  max-listings: 45
+  minimum-distance: 4
+  maximum-price: 100000000
+  
+  allowed-worlds: []
+  default-style: 'yesil'
+  particle-effects: true
+  
+styles:
+  yesil:
+    name: 'Zümrüt Tezgâh'
+    canopy: GREEN_WOOL
+    base: SPRUCE_PLANKS
+    helmet: EMERALD_BLOCK
+    color: '#4b9851'
+  kizil:
+    name: 'Kızıl Tezgâh'
+    canopy: RED_WOOL
+    base: DARK_OAK_PLANKS
+    helmet: REDSTONE_BLOCK
+    color: '#b63838'
+  mavi:
+    name: 'Lapis Tezgâh'
+    canopy: BLUE_WOOL
+    base: OAK_PLANKS
+    helmet: LAPIS_BLOCK
+    color: '#3468c5'
+  oyuncu:
+    name: 'Oyuncu Kafası'
+    canopy: PURPLE_WOOL
+    base: DARK_OAK_PLANKS
+    helmet: PLAYER_HEAD
+    color: '#935bcc'

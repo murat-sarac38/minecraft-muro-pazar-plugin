@@ -1,0 +1,25 @@
+name: muroPazar
+version: 1.0.0
+main: tr.muro.pazar.MuroPazar
+api-version: '26.2'
+description: Metin2 tarzı oyuncu pazarları, kalıcı teslimat kutusu ve Türkçe menüler.
+author: muro
+softdepend: [Vault]
+commands:
+  muropazar:
+    description: muroPazar menüsünü açar.
+    usage: /muropazar yardim
+    aliases: [pazar, muro]
+permissions:
+  muropazar.use:
+    description: Pazarları görüntüleme ve alışveriş.
+    default: true
+  muropazar.create:
+    description: Pazar kurma.
+    default: true
+  muropazar.admin:
+    description: Yönetici işlemleri, bakiye ve kurtarma.
+    default: op
+  muropazar.bypass:
+    description: Dünya, mesafe ve spawn kısıtlamalarını atlar.
+    default: op
